@@ -1,12 +1,12 @@
 /* ============================================================================
  * Imports
  * ========================================================================= */
-import { reducer as counter } from "../counter";
+import { reducer as counter } from '../counter';
 
 /* ============================================================================
  * Combine
  * ========================================================================= */
-import { combineReducers } from "redux";
+import { combineReducers } from 'redux';
 const reducers = combineReducers
   (
     {
